@@ -11,7 +11,7 @@
     body { font-family: Georgia, "Times New Roman", Times, serif; color: var(--text); background: var(--bg); line-height: 1.7; font-size: 19px; -webkit-font-smoothing: antialiased; padding-bottom: 80px; }
     .wrap { max-width: 640px; margin: 0 auto; padding: 0 20px 60px; }
     .logo-bar { text-align: center; padding: 28px 0 18px; border-bottom: 1px solid var(--border); margin-bottom: 28px; }
-    .logo-bar img { height: 32px; width: auto; display: inline-block; }
+    .logo-bar img { height: 52px; width: auto; display: inline-block; }
     .sponsored { text-align: center; margin-bottom: 22px; }
     .sponsored span { display: inline-block; font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif; font-size: 11px; font-weight: 600; letter-spacing: 0.06em; text-transform: uppercase; color: var(--muted); background: #f0eeea; border: 1px solid var(--border); border-radius: 100px; padding: 6px 14px; }
     h1 { font-family: Georgia, "Times New Roman", Times, serif; font-size: clamp(26px, 6.5vw, 34px); line-height: 1.22; font-weight: 700; letter-spacing: -0.02em; text-align: center; margin-bottom: 16px; }
@@ -22,7 +22,7 @@
     .byline-text strong { display: block; font-size: 15px; color: var(--text); }
     .byline-meta { color: var(--muted); font-size: 13px; }
     .img-block { margin: 32px 0 8px; }
-    .img-block img { width: 100%; border-radius: 10px; display: block; background: #eae8e3; }
+    .img-block img { width: 100%; height: auto; border-radius: 10px; display: block; background: #eae8e3; object-fit: contain; }
     .caption { font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif; font-size: 13px; color: var(--muted); text-align: center; margin-top: 10px; margin-bottom: 28px; line-height: 1.4; font-style: italic; }
     p { margin-bottom: 22px; }
     .drop { float: left; font-size: 68px; line-height: 0.75; padding-right: 10px; padding-top: 6px; font-weight: 700; color: var(--accent); }
@@ -41,7 +41,7 @@
     .product { background: var(--dark); color: #f5f5f0; border-radius: 16px; padding: 32px 24px 28px; margin: 20px 0 48px; text-align: left; }
     .product h2 { font-family: Georgia, serif; color: #fff; font-size: 26px; margin: 0 0 8px; line-height: 1.25; }
     .product .sub { font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif; font-size: 15px; color: #b8c4b8; margin-bottom: 22px; }
-    .product img { width: 100%; border-radius: 10px; margin-bottom: 8px; display: block; }
+    .product img { width: 100%; height: auto; max-height: 520px; object-fit: contain; border-radius: 10px; margin-bottom: 8px; display: block; background: #2a2f2a; }
     .product .prod-caption { font-family: -apple-system, sans-serif; font-size: 12px; color: #8a9a8a; text-align: center; margin-bottom: 22px; font-style: italic; }
     .product ul { list-style: none; margin-bottom: 26px; font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif; font-size: 15px; }
     .product ul li { position: relative; padding-left: 22px; margin-bottom: 10px; color: #e0e8e0; }
@@ -61,7 +61,7 @@
     .final-cta .btn { max-width: 420px; margin: 0 auto; }
     .disclaimer { font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif; font-size: 12px; color: #777; line-height: 1.5; margin: 48px 0 24px; padding: 16px; background: #f3f2ef; border-radius: 8px; border: 1px solid var(--border); }
     footer { text-align: center; font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif; font-size: 12px; color: #888; padding: 28px 0 10px; border-top: 1px solid var(--border); }
-    footer .logo-small { height: 22px; margin-bottom: 12px; opacity: 0.85; }
+    footer .logo-small { height: 36px; width: auto; margin-bottom: 14px; opacity: 0.9; }
     footer a { color: #666; text-decoration: none; margin: 0 8px; }
     .sticky-cta { position: fixed; bottom: 0; left: 0; right: 0; background: #1a1f1a; color: #fff; padding: 12px 16px; display: flex; align-items: center; justify-content: space-between; gap: 12px; z-index: 9999; box-shadow: 0 -4px 20px rgba(0,0,0,0.25); transform: translateY(100%); transition: transform 0.3s ease; font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif; }
     .sticky-cta.visible { transform: translateY(0); }
@@ -74,12 +74,12 @@
 </head>
 <body>
   <div class="wrap">
-    <div class="logo-bar"><img src="bhare-lander/logo.png" alt="bhare" width="160" height="32" /></div>
+    <div class="logo-bar"><img src="bhare-lander/logo.png" alt="bhare" width="208" height="52" /></div>
     <div class="sponsored"><span>Sponsored · A Woman’s Honest Review</span></div>
     <h1>How I Lost 100 lbs at 49 Years Old Without Knowing a Calorie Existed and Slightly On “Accident”</h1>
     <p class="dek">Eleven months, one protocol built for women, and the first time in years my body stopped working against me.</p>
     <div class="byline"><div class="avatar">SS</div><div class="byline-text"><strong>Skye S.</strong><div class="byline-meta">49 · Updated August 2026 · 6 min read</div></div></div>
-    <div class="img-block"><img src="bhare-lander/hero.jpg" alt="Scale showing -100 lbs" width="1200" height="800" loading="eager" /></div>
+    <div class="img-block"><img src="bhare-lander/hero.jpg" alt="Scale showing -100 lbs" width="1200" height="799" loading="eager" /></div>
     <p class="caption">The version of me that finally felt familiar again.</p>
     <p><span class="drop">I</span> used to keep a quiet running list of every pair of jeans that no longer zipped. At 245 pounds and 49 years old, the list became quite long. The scale wasn’t even the worst part. It was the way my body had started working against me.</p>
     <p>The midsection weight that showed up without permission, the guilt at looking in the mirror before I went out, the afternoon fog that clouded my brain and made me crash.</p>
@@ -99,7 +99,7 @@
     <p>The constant pull toward sweets faded. I stopped reaching for Diet Coke out of habit to curb my hunger. Stopped waiting for the clock to hit 8am, 12pm, and 5pm just so I could eat. I would sit down to a normal plate and feel satisfied halfway through.</p>
     <p>For the first time in a long time, stopping felt natural instead of like willpower.</p>
     <p>The surprising part was the energy. Every extreme diet I had ever tried left me drained and irritable by week two. This was the opposite. I felt more steady, more clear, more capable than I had in years.</p>
-    <div class="img-block"><img src="bhare-lander/food-noise.jpg" alt="Food noise radio being turned down" width="1200" height="800" loading="lazy" /></div>
+    <div class="img-block"><img src="bhare-lander/food-noise.jpg" alt="Food noise radio being turned down" width="1200" height="1499" loading="lazy" /></div>
     <p class="caption">The first weeks felt less like restriction and more like the volume simply got quieter.</p>
     <div class="section-label">Month 3–4 — Clothes Start Telling the Truth</div>
     <p>Around month four the first pair of old jeans zipped without a fight. That moment felt bigger than any number on the scale.</p>
@@ -110,7 +110,7 @@
     <p>In how I carried myself in conversations, in how I felt walking into a room, in the way I stopped editing myself before speaking to men I found interesting.</p>
     <p>And best of all... sex.</p>
     <p>Feeling comfortable being fully seen, without the mental inventory of what I wished looked different. That particular confidence is hard to put a number on, but it may have been the most valuable part of the whole year.</p>
-    <div class="img-block"><img src="bhare-lander/confidence.jpg" alt="Woman confidently buttoning jeans in front of mirror" width="1200" height="800" loading="lazy" /></div>
+    <div class="img-block"><img src="bhare-lander/confidence.jpg" alt="Woman confidently buttoning jeans in front of mirror" width="1200" height="1499" loading="lazy" /></div>
     <p class="caption">The version of confidence that doesn’t need to announce itself.</p>
     <div class="section-label">Month 11 — The Verdict</div>
     <p>I went from <span class="hl">245 to 145</span> over eleven months. 100 pounds.</p>
@@ -124,11 +124,11 @@
     <p>And the landscape in 2026 is honestly strange. Most of what I found was either written for men, wrapped in biohacker language, or sold with zero transparency. Then there’s this:</p>
     <div class="compare-wrap"><table class="compare"><thead><tr><th>Source</th><th>Feels built for women</th><th>Transparency</th></tr></thead><tbody><tr><td>Typical peptide sites</td><td>No — mostly male / gym framing</td><td>Often unclear</td></tr><tr><td>Clinical / compounding routes</td><td>Sometimes</td><td>Varies widely</td></tr><tr><td>bhare GLP-3 RT</td><td>Yes</td><td>Third-party tested · COA</td></tr></tbody></table></div>
     <p class="sig">— <strong>Skye</strong>, who can finally look in the mirror without flinching</p>
-    <div class="product"><h2>The Protocol I Used</h2><p class="sub">Everything from this review, in one place — built for researchers who refuse to compromise.</p><img src="bhare-lander/product.jpg" alt="bhare GLP-3 RT research vials" width="1000" height="700" loading="lazy" /><p class="prod-caption">Research-grade. Third-party tested. No bravado required.</p><ul><li>GLP-3 RT — research-grade triple agonist</li><li>Third-party tested for identity &amp; purity</li><li>COA available with every batch</li><li>Clean presentation designed for serious researchers</li></ul><div class="price-row"><span class="price-old">From $189</span><span class="price-new">$149</span></div><a href="https://bharewell.com/products/glp3rt" class="btn" target="_blank" rel="noopener">Get Protocol Now</a><div class="guarantees"><span>✓ Third-party tested</span><span>✓ COA on file</span><span>✓ Ships discreetly</span></div></div>
+    <div class="product"><h2>The Protocol I Used</h2><p class="sub">Everything from this review, in one place — built for researchers who refuse to compromise.</p><img src="bhare-lander/product.jpg" alt="bhare GLP-3 RT research vials" width="1000" height="1778" loading="lazy" /><p class="prod-caption">Research-grade. Third-party tested. No bravado required.</p><ul><li>GLP-3 RT — research-grade triple agonist</li><li>Third-party tested for identity &amp; purity</li><li>COA available with every batch</li><li>Clean presentation designed for serious researchers</li></ul><div class="price-row"><span class="price-old">From $189</span><span class="price-new">$149</span></div><a href="https://bharewell.com/products/glp3rt" class="btn" target="_blank" rel="noopener">Get Protocol Now</a><div class="guarantees"><span>✓ Third-party tested</span><span>✓ COA on file</span><span>✓ Ships discreetly</span></div></div>
     <div class="faq-section"><h2>Questions I Kept Getting From Friends</h2><div class="faq-item"><div class="faq-q">Was it hard to start? <span>+</span></div><div class="faq-a">The biggest barrier for me was the mental one — everything online felt like it was made for a different audience. Once I found a source that felt clean and woman-focused, the practical side was straightforward. I took it slowly and paid attention to how I felt.</div></div><div class="faq-item"><div class="faq-q">Did the food noise really quiet down? <span>+</span></div><div class="faq-a">Yes. That was the earliest and most noticeable change. Sweets lost their pull. I naturally ate less without the usual white-knuckle restriction, and I still had energy — which had never happened on previous diets.</div></div><div class="faq-item"><div class="faq-q">What about the cost? <span>+</span></div><div class="faq-a">It’s an investment. I was honest with myself about that from the beginning. For the confidence and the way my body finally stopped fighting me, it was worth it. Your calculation may be different.</div></div><div class="faq-item"><div class="faq-q">Is this for everyone? <span>+</span></div><div class="faq-a">No. This is my personal experience only. I’m not a doctor and this is not medical advice. Anyone considering research compounds should do their own due diligence, understand the legal and safety landscape, and consult qualified professionals.</div></div></div>
     <div class="final-cta"><a href="https://bharewell.com/products/glp3rt" class="btn" target="_blank" rel="noopener">Get Protocol Now</a></div>
     <div class="disclaimer"><strong>Important:</strong> This is a personal story shared for informational purposes only. It is not medical advice, a testimonial for treatment, or a recommendation to use any substance for human consumption. The compound referenced is sold strictly for laboratory research use only and is not intended for human or veterinary use. Retatrutide and related triple agonists remain investigational and are not FDA-approved. Always consult a licensed healthcare professional before making decisions about your health. Individual results vary. bhare products are for research purposes only.</div>
-    <footer><img src="bhare-lander/logo.png" alt="bhare" class="logo-small" width="110" height="22" /><br /><a href="https://bharewell.com">Shop</a> <a href="https://bharewell.com">Support</a> <a href="https://bharewell.com">Lab Reports</a><br /><br />© 2026 bhare Wellness, LLC · Research Use Only · Not for human consumption</footer>
+    <footer><img src="bhare-lander/logo.png" alt="bhare" class="logo-small" width="144" height="36" /><br /><a href="https://bharewell.com">Shop</a> <a href="https://bharewell.com">Support</a> <a href="https://bharewell.com">Lab Reports</a><br /><br />© 2026 bhare Wellness, LLC · Research Use Only · Not for human consumption</footer>
   </div>
   <div class="sticky-cta" id="stickyCta"><div class="sticky-price">From <strong>$99</strong></div><a href="https://bharewell.com/products/glp3rt" class="sticky-btn" target="_blank" rel="noopener">Get Now →</a></div>
   <script>(function(){var sticky=document.getElementById('stickyCta');var shown=false;function checkScroll(){var scrollTop=window.pageYOffset||document.documentElement.scrollTop;var docHeight=document.documentElement.scrollHeight-window.innerHeight;var progress=docHeight>0?scrollTop/docHeight:0;if(progress>=0.30&&!shown){sticky.classList.add('visible');shown=true;}else if(progress<0.25&&shown){sticky.classList.remove('visible');shown=false;}}window.addEventListener('scroll',checkScroll,{passive:true});checkScroll();})();</script>
