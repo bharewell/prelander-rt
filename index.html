@@ -1,1 +1,137 @@
-PLACEHOLDER
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8"/>
+<meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+<title>How I Lost 100 lbs at 49 | bhare</title>
+<style>
+:root{--accent:#014421;--text:#1a1a1a;--muted:#5a5a5a;--bg:#faf9f6;--card:#fff;--border:#e8e6e1;--highlight:#fff3b0;--dark:#1a1f1a}
+*{box-sizing:border-box;margin:0;padding:0}
+body{font-family:Georgia,serif;color:var(--text);background:var(--bg);line-height:1.7;font-size:19px;padding-bottom:80px}
+.wrap{max-width:640px;margin:0 auto;padding:0 20px 60px}
+.logo-bar{text-align:center;padding:28px 0 18px;border-bottom:1px solid var(--border);margin-bottom:28px}
+.logo-bar img{height:52px;width:auto}
+.sponsored{text-align:center;margin-bottom:22px}
+.sponsored span{display:inline-block;font-family:-apple-system,sans-serif;font-size:11px;font-weight:600;letter-spacing:.06em;text-transform:uppercase;color:var(--muted);background:#f0eeea;border:1px solid var(--border);border-radius:100px;padding:6px 14px}
+h1{font-size:clamp(26px,6.5vw,34px);line-height:1.22;font-weight:700;text-align:center;margin-bottom:16px}
+.dek{font-size:18px;font-style:italic;color:var(--muted);text-align:center;margin-bottom:28px}
+.byline{display:flex;align-items:center;justify-content:center;gap:12px;margin-bottom:36px;font-family:-apple-system,sans-serif}
+.avatar{width:42px;height:42px;border-radius:50%;background:var(--accent);color:#fff;display:flex;align-items:center;justify-content:center;font-weight:600;font-size:14px}
+.byline-text{font-size:14px}.byline-text strong{display:block;font-size:15px}.byline-meta{color:var(--muted);font-size:13px}
+.img-block{margin:32px 0 8px}.img-block img{width:100%;height:auto;border-radius:10px;display:block}
+.caption{font-family:-apple-system,sans-serif;font-size:13px;color:var(--muted);text-align:center;margin-top:10px;margin-bottom:28px;font-style:italic}
+p{margin-bottom:22px}
+.drop{float:left;font-size:68px;line-height:.75;padding-right:10px;padding-top:6px;font-weight:700;color:var(--accent)}
+.hl{background:var(--highlight);padding:1px 3px}
+.section-label{font-family:-apple-system,sans-serif;font-size:12px;font-weight:700;letter-spacing:.08em;text-transform:uppercase;color:var(--accent);margin:40px 0 14px;padding-bottom:6px;border-bottom:1px solid #d4e0d6}
+.pull{border-left:4px solid var(--accent);padding:6px 0 6px 20px;margin:32px 0;font-size:20px;font-style:italic}
+.figured{background:var(--card);border:1px solid var(--border);border-radius:12px;padding:22px;margin:36px 0;font-family:-apple-system,sans-serif;font-size:16px}
+.figured .label{font-size:11px;font-weight:700;letter-spacing:.07em;text-transform:uppercase;color:var(--accent);margin-bottom:10px}
+h2{font-size:26px;font-weight:700;margin:48px 0 18px}
+.compare-wrap{overflow-x:auto;margin:28px 0 36px;border-radius:10px;border:1px solid var(--border)}
+table.compare{width:100%;border-collapse:collapse;font-family:-apple-system,sans-serif;font-size:14px}
+table.compare th{background:var(--dark);color:#fff;padding:12px 14px;text-align:left}
+table.compare td{padding:12px 14px;border-bottom:1px solid var(--border);background:#fff}
+table.compare tr:last-child td{border-bottom:none;background:#f3f7f3;font-weight:600}
+.sig{font-style:italic;margin:36px 0 48px}
+.product{background:var(--dark);color:#f5f5f0;border-radius:16px;padding:32px 24px 28px;margin:20px 0 48px}
+.product h2{color:#fff;font-size:26px;margin:0 0 8px}
+.product .sub{font-family:-apple-system,sans-serif;font-size:15px;color:#b8c4b8;margin-bottom:22px}
+.product img{width:100%;height:auto;border-radius:10px;margin-bottom:8px;display:block}
+.product .prod-caption{font-family:-apple-system,sans-serif;font-size:12px;color:#8a9a8a;text-align:center;margin-bottom:22px;font-style:italic}
+.product ul{list-style:none;margin-bottom:26px;font-family:-apple-system,sans-serif;font-size:15px}
+.product ul li{padding-left:22px;margin-bottom:10px;position:relative;color:#e0e8e0}
+.product ul li::before{content:"✓";position:absolute;left:0;color:#7dba8a;font-weight:700}
+.price-row{font-family:-apple-system,sans-serif;margin-bottom:18px}
+.price-old{text-decoration:line-through;color:#8a9a8a;font-size:18px;margin-right:10px}
+.price-new{color:#fff;font-size:32px;font-weight:700}
+.btn{display:block;width:100%;background:var(--accent);color:#fff!important;text-decoration:none;font-family:-apple-system,sans-serif;font-weight:650;font-size:17px;text-align:center;padding:16px 20px;border-radius:10px}
+.btn:hover{background:#01331a}
+.guarantees{display:flex;flex-wrap:wrap;gap:10px 16px;margin-top:16px;font-family:-apple-system,sans-serif;font-size:12px;color:#9aaa9a;justify-content:center}
+.faq-section h2{text-align:center;margin-bottom:24px}
+.faq-item{background:#fff;border:1px solid var(--border);border-radius:10px;margin-bottom:10px}
+.faq-q{font-family:-apple-system,sans-serif;font-size:16px;font-weight:600;padding:16px 18px;display:flex;justify-content:space-between}
+.faq-q span{color:var(--accent);font-size:20px}
+.faq-a{font-family:-apple-system,sans-serif;font-size:15px;color:#444;padding:14px 18px 16px;border-top:1px solid var(--border)}
+.final-cta{margin:40px 0 20px;text-align:center}.final-cta .btn{max-width:420px;margin:0 auto}
+.disclaimer{font-family:-apple-system,sans-serif;font-size:12px;color:#777;margin:48px 0 24px;padding:16px;background:#f3f2ef;border-radius:8px;border:1px solid var(--border)}
+footer{text-align:center;font-family:-apple-system,sans-serif;font-size:12px;color:#888;padding:28px 0 10px;border-top:1px solid var(--border)}
+footer .logo-small{height:36px;margin-bottom:14px}
+footer a{color:#666;text-decoration:none;margin:0 8px}
+.sticky-cta{position:fixed;bottom:0;left:0;right:0;background:#1a1f1a;color:#fff;padding:12px 16px;display:flex;align-items:center;justify-content:space-between;gap:12px;z-index:9999;box-shadow:0 -4px 20px rgba(0,0,0,.25);transform:translateY(100%);transition:transform .3s ease;font-family:-apple-system,sans-serif}
+.sticky-cta.visible{transform:translateY(0)}
+.sticky-price{font-size:14px;font-weight:600;color:#c8d4c8;display:flex;align-items:baseline;gap:8px}
+.sticky-price .sticky-old{text-decoration:line-through;color:#8a9a8a;font-size:13px}
+.sticky-price .sticky-new{color:#fff;font-size:20px;font-weight:700}
+.sticky-btn{background:#014421;color:#fff!important;text-decoration:none;font-weight:650;font-size:15px;padding:12px 20px;border-radius:8px;white-space:nowrap}
+.mid-cta{margin:28px 0 32px;text-align:center}
+.btn-mid{display:inline-block;width:auto;min-width:220px;max-width:100%;padding:14px 28px;font-size:16px}
+.hero-cta{margin:8px 0 32px;text-align:center}.hero-cta .btn{max-width:360px;margin:0 auto}
+@media(max-width:480px){body{font-size:17.5px}.wrap{padding:0 16px 50px}h1{font-size:24px}.price-new{font-size:28px}}
+</style>
+</head>
+<body>
+<div class="wrap">
+<div class="logo-bar"><img src="https://prelander-rt.vercel.app/bhare-lander/logo.png" alt="bhare" width="208" height="52"/></div>
+<div class="sponsored"><span>Sponsored · A Woman’s Honest Review</span></div>
+<h1>How I Lost 100 lbs at 49 Without Counting a Single Calorie</h1>
+<p class="dek">Eleven months. One plan made for women. The first time my body stopped fighting me.</p>
+<div class="byline"><div class="avatar">SS</div><div class="byline-text"><strong>Skye S.</strong><div class="byline-meta">49 · Updated August 2026 · 6 min read</div></div></div>
+<div class="img-block"><img src="https://prelander-rt.vercel.app/bhare-lander/hero.jpg" alt="Scale showing weight loss" width="1200" height="799" loading="eager"/></div>
+<p class="caption">I finally felt like me again.</p>
+<div class="hero-cta"><a href="https://bharewell.com/products/glp3rt" class="btn" target="_blank" rel="noopener">Get Protocol Now</a></div>
+<p><span class="drop">I</span> used to keep a list of jeans that would not zip. At 245 pounds and 49 years old, that list got long. The scale was not the worst part. The worst part was how my body felt.</p>
+<p>Weight sat on my middle. I felt bad when I looked in the mirror. By the afternoon my brain felt foggy. I would crash hard.</p>
+<p>I tried the “right” things. Clean food. More Pilates. Better sleep. Less wine.</p>
+<p><span class="hl">Nothing worked</span> the way it did in my thirties.</p>
+<p>My doctor said this was normal for my age. I did not want to hear that. My friends ate what they wanted. They stayed thin. I did not.</p>
+<p>I saw before-and-after photos of women my age. They looked lighter and more like themselves. I felt hope. I also felt doubt.</p>
+<p>Most of what I read about these new peptides felt written for men in the gym. Hard words. Hard talk. It did not feel like it was for me.</p>
+<p>Still, I wanted to try.</p>
+<p>I tried a few sellers. Some left bumps where I injected. Some did not work. I even tried a GLP-1. It was not enough.</p>
+<p>My body still felt soft. I ate the same. I felt stuck.</p>
+<p>Then I found <strong>bhare</strong>. It felt made for women like me. Clean. Clear. No big talk.</p>
+<p>Just tested compounds and a simple path.</p>
+<p>I ordered. I treated the next eleven months like a real test. Here is what happened.</p>
+<div class="section-label">Month 1 — The Quiet Change</div>
+<p>The food noise got quieter. Not all at once. More like someone turned down a loud radio.</p>
+<p>Sweets did not pull as hard. I stopped reaching for Diet Coke just to feel full. I sat down to a normal plate and felt done halfway through.</p>
+<p>For the first time in a long time, stopping felt easy. Not like a fight.</p>
+<p>And I still had energy. Old diets left me tired and mean by week two. This was different. I felt steady. Clear. Strong.</p>
+<div class="img-block"><img src="https://prelander-rt.vercel.app/bhare-lander/food-noise.jpg" alt="Quieter food noise" width="1200" height="1499" loading="lazy"/></div>
+<p class="caption">The first weeks felt less like a diet and more like the noise got soft.</p>
+<div class="mid-cta" data-cta="post-proof"><a href="https://bharewell.com/products/glp3rt" class="btn btn-mid" target="_blank" rel="noopener">Get Protocol Now</a></div>
+<div class="section-label">Month 3–4 — Clothes Tell the Truth</div>
+<p>Around month four, an old pair of jeans zipped. No fight. That moment felt bigger than any number on a scale.</p>
+<p>Then more clothes fit. Shirts hung better. Dresses I had pushed to the back of the closet came out again. Buying new clothes felt simple. I did not size up “just in case.”</p>
+<div class="pull">For the first time in years I was not arguing with my mirror. I was just there.</div>
+<div class="section-label">Month 6–8 — Quiet Confidence</div>
+<p>The mirror changed slowly. One morning I looked at myself while getting ready and did not look away. That small confidence showed up in other places too.</p>
+<p>In how I stood. In how I talked. In how I felt walking into a room. In how I talked to men I liked.</p>
+<p>And in sex. Feeling okay being fully seen. Without a list in my head of what I wished looked different. That part may have been the best part of the whole year.</p>
+<div class="img-block"><img src="https://prelander-rt.vercel.app/bhare-lander/confidence.jpg" alt="Feeling confident in the mirror" width="1200" height="1499" loading="lazy"/></div>
+<p class="caption">Confidence that does not need to shout.</p>
+<div class="mid-cta" data-cta="mid"><a href="https://bharewell.com/products/glp3rt" class="btn btn-mid" target="_blank" rel="noopener">Get Protocol Now</a></div>
+<div class="section-label">Month 11 — The End of the Story</div>
+<p>I went from <span class="hl">245 to 145</span> in eleven months. 100 pounds.</p>
+<p>Clothes fit. The mirror felt kind. Talks felt easier. Being close to someone felt freer.</p>
+<div class="figured"><div class="label">What I learned</div>It was never just about the scale. It was about the gap between how I felt inside and how my body looked and moved.<br><br>Once the food noise got quiet and my energy came back, the rest could catch up. The best plan is not the one with the loudest claims.<br><br>It is the one that lets you stop fighting yourself.</div>
+<h2>The Honest Part</h2>
+<p>Was this easy? No. It was not cheap. I tracked every order. The total over eleven months was real money. Some weeks I felt silly. Some weeks the scale did not move. Nothing about this was magic.</p>
+<p>But I kept asking one question. If I can put a price on feeling like myself again — in the mirror, in clothes, in talks, and in my own skin — what is that worth?</p>
+<p><span class="hl">I would pay that ten times over.</span></p>
+<p>For me, it was worth it.</p>
+<p>Most of what I found online felt written for men. Or full of big talk. Or hard to trust. Then there was this:</p>
+<div class="compare-wrap"><table class="compare"><thead><tr><th>Source</th><th>Made for women</th><th>Clear and tested</th></tr></thead><tbody><tr><td>Most peptide sites</td><td>No — mostly for men</td><td>Often unclear</td></tr><tr><td>Clinic paths</td><td>Sometimes</td><td>Mixed</td></tr><tr><td>bhare GLP-3 RT</td><td>Yes</td><td>Tested · COA</td></tr></tbody></table></div>
+<p class="sig">— <strong>Skye</strong>, who can look in the mirror without looking away</p>
+<div class="product"><h2>The Plan I Used</h2><p class="sub">Everything from this story, in one place.</p><img src="https://prelander-rt.vercel.app/bhare-lander/product.jpg" alt="bhare research vials" width="1000" height="1778" loading="lazy"/><p class="prod-caption">Tested. Clear. No big talk.</p><ul><li>GLP-3 RT — research-grade</li><li>Third-party tested</li><li>COA with every batch</li><li>Made for serious research</li></ul><div class="price-row"><span class="price-old">From $189</span><span class="price-new">$149</span></div><a href="https://bharewell.com/products/glp3rt" class="btn" target="_blank" rel="noopener">Get Protocol Now</a><div class="guarantees"><span>✓ Third-party tested</span><span>✓ COA on file</span><span>✓ Ships discreetly</span></div></div>
+<div class="mid-cta" data-cta="post-offer"><a href="https://bharewell.com/products/glp3rt" class="btn btn-mid" target="_blank" rel="noopener">Get Protocol Now</a></div>
+<div class="faq-section"><h2>Questions Friends Asked Me</h2><div class="faq-item"><div class="faq-q">Was it hard to start? <span>+</span></div><div class="faq-a">The hard part was in my head. Most sites felt made for someone else. Once I found a clean, woman-focused source, the rest was simple. I went slow and paid attention to how I felt.</div></div><div class="faq-item"><div class="faq-q">Did the food noise really get quiet? <span>+</span></div><div class="faq-a">Yes. That was the first big change. Sweets lost their pull. I ate less without a fight. I still had energy. That never happened on old diets.</div></div><div class="faq-item"><div class="faq-q">What about the cost? <span>+</span></div><div class="faq-a">It costs real money. I was honest about that from day one. For the confidence and the way my body stopped fighting me, it was worth it. Your math may be different.</div></div><div class="faq-item"><div class="faq-q">Is this for everyone? <span>+</span></div><div class="faq-a">No. This is only my story. I am not a doctor. This is not medical advice. Anyone looking at research compounds should do their own checks and talk to a real professional.</div></div></div>
+<div class="final-cta"><a href="https://bharewell.com/products/glp3rt" class="btn" target="_blank" rel="noopener">Get Protocol Now</a></div>
+<div class="disclaimer"><strong>Important:</strong> This is a personal story for information only. It is not medical advice. It is not a claim that any substance treats disease. The compound is sold for laboratory research only and is not for human or animal use. Retatrutide and related compounds are not FDA-approved. Talk to a licensed doctor before any health choice. Results vary. bhare products are for research only.</div>
+<footer><img src="https://prelander-rt.vercel.app/bhare-lander/logo.png" alt="bhare" class="logo-small" width="144" height="36"/><br/><a href="https://bharewell.com">Shop</a> <a href="https://bharewell.com">Support</a> <a href="https://bharewell.com">Lab Reports</a><br/><br/>© 2026 bhare Wellness, LLC · Research Use Only · Not for human consumption</footer>
+</div>
+<div class="sticky-cta" id="stickyCta"><div class="sticky-price"><span class="sticky-old">From $189</span><span class="sticky-new">$149</span></div><a href="https://bharewell.com/products/glp3rt" class="sticky-btn" target="_blank" rel="noopener">Get Now →</a></div>
+<script>(function(){var sticky=document.getElementById('stickyCta');if(!sticky)return;var shown=false;function show(){if(shown)return;shown=true;sticky.classList.add('visible');}function checkScroll(){var y=window.pageYOffset||document.documentElement.scrollTop;if(y>=600)show();}window.addEventListener('scroll',checkScroll,{passive:true});setTimeout(show,1500);checkScroll();})();</script>
+</body>
+</html>
