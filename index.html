@@ -3,7 +3,7 @@
 <head>
 <meta charset="UTF-8"/>
 <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
-<title>Loading…</title>
+<title>How I Lost 100 lbs at 49 | bhare</title>
 <!-- Meta Pixel Code -->
 <script>
 !function(f,b,e,v,n,t,s)
@@ -25,14 +25,17 @@ src="https://www.facebook.com/tr?id=2830970760608679&ev=PageView&noscript=1"
 <body>
 <script>
 (function(){
+  var PLAN = 'https://cdn.jsdelivr.net/gh/bharewell/prelander-rt@main/ChatGPT%20Image%20Aug%208%2C%202026%2C%2007_21_37%20PM.webp';
   var src = 'https://cdn.jsdelivr.net/gh/bharewell/prelander-rt@2fc09c5cbf9b004b042524e46c481b9dadca2e44/bhare-lander/index.html';
   fetch(src + '?t=' + Date.now()).then(function(r){return r.text()}).then(function(html){
     if (html.indexOf('2830970760608679') === -1) {
       var pixel = '<!-- Meta Pixel Code -->\n<script>\n!function(f,b,e,v,n,t,s)\n{if(f.fbq)return;n=f.fbq=function(){n.callMethod?\nn.callMethod.apply(n,arguments):n.queue.push(arguments)};\nif(!f._fbq)f._fbq=n;n.push=n;n.loaded=!0;n.version=\'2.0\';\nn.queue=[];t=b.createElement(e);t.async=!0;\nt.src=v;s=b.getElementsByTagName(e)[0];\ns.parentNode.insertBefore(t,s)}(window, document,\'script\',\n\'https://connect.facebook.net/en_US/fbevents.js\');\nfbq(\'init\', \'2830970760608679\');\nfbq(\'track\', \'PageView\');\n<\/script>\n<noscript><img height="1" width="1" style="display:none"\nsrc="https://www.facebook.com/tr?id=2830970760608679&ev=PageView&noscript=1"\n/><\/noscript>\n<!-- End Meta Pixel Code -->\n';
       html = html.replace(/<\/head>/i, pixel + '</head>');
     }
-    // Fix relative image paths when loaded via root
     html = html.replace(/src="(hero|food-noise|confidence|product|logo)\.(jpg|png)"/g, 'src="https://cdn.jsdelivr.net/gh/bharewell/prelander-rt@2fc09c5cbf9b004b042524e46c481b9dadca2e44/bhare-lander/$1.$2"');
+    html = html.replace(/https:\/\/litter\.catbox\.moe\/[^"']+/g, PLAN);
+    html = html.replace(/src="[^"]*product\.(jpg|png|webp)"/gi, 'src="' + PLAN + '"');
+    html = html.replace(/src="[^"]*qllw4l\.webp"/gi, 'src="' + PLAN + '"');
     document.open();
     document.write(html);
     document.close();
